@@ -1,0 +1,239 @@
+.box
+{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: demo;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes demo
+{
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    25%
+    {
+        background-color: yellow;
+        top: 0px;
+        left: 400px;
+    }
+    50%
+    {
+        background-color: green;
+        top: 300px;
+        left: 300px;
+
+    }
+    75%
+    {
+        background-color: pink;
+        top: 300px;
+        left: 0px;
+    }
+    100%
+    {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 200px;
+    margin-left: 300px;
+    transition: width 3s, height 5s;
+}
+
+
+.box:hover
+{
+    width: 300px;
+    height: 300px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+property -> transform
+value -> 
+1- translate
+2- rotate
+3- scale()
+4- scale X()
+5- scale Y()
+6- skew ()
+7- skew X()
+8- skew Y()
+9- matrix()
+
+
+transform: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY());
+ */
+/* *
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.box
+{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    margin-top: 250px;
+    margin-left: 500px;
+}
+p{
+    line-height: 200px;
+    text-align: center;
+}
+.box:hover
+{ */
+    /* transform: scale(0.5,0.5); */
+    /* transform: skew(20deg,10deg); */
+    /* transform: matrix(2,-0.5,0,3,300,200);
+    border-radius: 30%;
+    transition: 3s;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.nav-bar
+{
+    height: 100px;
+    width: 100%; */
+    /* linear gradient */
+    /* background-image: linear-gradient(to left, rgb(48, 151, 207),rgb(158, 158, 12), rgb(36, 138, 36));
+} */
+
+/* .box
+{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle, red,yellow, green);
+
+
+} */
+
+
+/* .box1
+{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red 45deg, green 90deg, yellow);
+    border-radius: 50%;
+
+
+}
+
+
+
+h1{
+    line-height: 100px;
+    color: white;
+    text-align: center;
+} */

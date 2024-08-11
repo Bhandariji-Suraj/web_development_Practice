@@ -1,0 +1,63 @@
+/* #heading{
+    color: red;
+    background-color: antiquewhite;
+    text-align: center;
+
+} */
+
+/* p,h1,h2{
+    color: green;
+    background-color: bisque;
+}
+
+.textColor{
+    color:red;
+    background-color: bisque;
+}
+
+.demo
+{
+    text-align: center;
+}
+
+.dd
+{
+    color: blue;
+    background-color: bisque;
+    text-align: right;
+}
+
+
+button, .he
+{
+    background-color: #4CAF50;
+}
+
+body{
+    background-color:blanchedalmond ;
+    background-image: url('img2.png');
+} */
+
+/* .main-container
+{
+    background-color:antiquewhite;
+}
+
+.demo
+{
+    background-image: url('img1.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+} */
+
+body{
+    /* background-image: url('img1.jpg');
+    background-repeat:no-repeat; */
+    /* background-size: cover; */
+    /* background-position: right bottom; */
+    /* background-attachment: fixed; */
+
+    background:fixed no-repeat right top url('img1.jpg')  rgba(188, 13, 13, 0.7);
+}

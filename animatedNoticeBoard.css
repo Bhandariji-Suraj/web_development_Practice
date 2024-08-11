@@ -1,0 +1,36 @@
+.notice-board
+{
+    background-color: #eee;
+    height: 500px;
+    width: 450px;
+    overflow:hidden;
+    position: relative;
+    left: 35%;
+    top: 100px;
+    box-shadow: 5px 5px 20px 5px rgb(81, 107, 185);
+    padding: 5px;
+}
+
+.notice
+{
+    position: relative;
+    /* animation-name: notice;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; */
+    animation: notice 20s 1s infinite;
+}
+
+
+@keyframes notice
+{
+    from
+    {
+        top: 0px;
+
+    }
+    to
+    {
+        top: -1150px;
+    }
+}
